@@ -1,0 +1,20 @@
+body{background:#0000dd; border:2px
+}
+article h1{
+background:#ffffff; font:#000000; position:center
+}
+aside{
+background:#000000;
+position:inline-block
+}
+div.pdeb{ 
+display:inline-block;
+position:center;
+width:240px;
+height:180px;
+font-size:14px;
+color:#ffffff
+} 
+legend{
+position:center
+}
