@@ -7,7 +7,8 @@ aside{
 background:#000000;
 position:inline-block
 }
-div.pdeb{ 
+div.pdeb{
+image-orientation: none;
 display:inline-block;
 position:center;
 width:240px;
