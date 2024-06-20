@@ -1,4 +1,6 @@
-body{background:#0000dd; border:2px
+@import "vanilla-framework";
+@include vanilla;
+body{background:#0000dd; border:4px
 }
 article h1{
 background:#ffffff; font:#000000; position:center
@@ -7,12 +9,12 @@ aside{
 background:#000000;
 position:inline-block
 }
-div.pdeb{
-image-orientation: none;
+#div.pdeb{
+image-orientation: inline;
 display:inline-block;
 position:center;
-width:240px;
-height:180px;
+width:100px;
+height:150px;
 font-size:14px;
 color:#ffffff
 } 
