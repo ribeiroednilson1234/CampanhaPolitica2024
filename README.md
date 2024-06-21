@@ -1,2 +1,2 @@
-# campanha2024
-Pagina web
+# Campanha Politica
+Pagina web para campanha política
