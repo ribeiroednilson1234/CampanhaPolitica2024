@@ -10,7 +10,7 @@ name: Build and Deploy to IKS
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "ribeiroednilson1234-patch-1-2" ]
 
 # Environment variables available to all jobs and steps in this workflow
 env:
