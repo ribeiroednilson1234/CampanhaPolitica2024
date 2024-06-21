@@ -2,22 +2,44 @@
 @include vanilla;
 body{background:#0000dd; border:4px
 }
-article h1{
-background:#ffffff; font:#000000; position:center
+article{
+background:#ffffff; font:#000000; position:center;
+padding:80%;
+width:80%;
+height:80%
+}
+h1{
+color:#000000
 }
 aside{
 background:#000000;
-position:inline-block
+position:relative;
+padding:70%;
+width:80%;
+height:60%
 }
-#div.pdeb{
-image-orientation: inline;
-display:inline-block;
-position:center;
-width:100px;
-height:150px;
+#div.pdeb fieldset legend h1{
+position:middle; margin:2px
+}
+#div.pdeb figure{
+padding:68%;
+width:110px;
+height:160px;
+display: inline-block;
+position: center;
 font-size:14px;
 color:#ffffff
-} 
-legend{
-position:center
 }
+#div.pdeb figure img{
+display:inline;
+image-orientation: inline;
+width:100px;
+height:150px
+}
+#div.pdeb figure img figcaption{
+padding:auto;
+width:15px;
+height:110px
+}
+
+
