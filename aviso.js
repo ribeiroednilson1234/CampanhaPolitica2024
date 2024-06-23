@@ -1,8 +1,9 @@
 <script>
-window.onload = function() 
-let alert=Aviso;
+window.onload = function.aviso(alert) 
+let alert=message;
+var message==alert;
 {
-    Aviso("Você está prestes a escolher o seu candidato. Faça a escolha consciente.");
+    alert("Você está prestes a escolher o seu candidato. Faça a escolha consciente.");
 }
 </script>
 
