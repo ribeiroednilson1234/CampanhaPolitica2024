@@ -1,40 +1,45 @@
 @import "vanilla-framework";
 @include vanilla;
-body{background:#0000dd; border:4px
+body{
+background: #000ddd;
+margin: 5px
 }
-article{
-background:#ffffff; font:#000000; position:center;
-padding:80%;
-width:80%;
-height:80%
+article{ background: #ffffff; 
+border: 4px;
+width: 80%;
+height: 80%
 }
 aside{
-background:#000000;
-position:relative;
-padding:70%;
-width:80%;
-height:60%
+background: #000000;
+position: relative;
+padding: 70%;
+margin: auto;
+width: 80%;
+height: 60%
 }
 #div.pdeb fieldset legend h3{
-position:middle; margin:2px
+position: middle; margin: 2px
 }
 #div.pdeb figure{
-padding:68%;
-width:110px;
-height:160px;
+padding: 68%;
+margin: auto;
+width: 110px;
+height: 160px;
 display: inline-block;
 position: middle;
-font-size:14px;
-color:#ffffff
+font-size: 14px;
+color: #ffffff
 }
 #div.pdeb figure img{
-display:inline;
+display: inline;
 image-orientation: inline;
-width:100px;
-height:150px
+padding: auto;
+width: 100px;
+height: 150px
 }
 #div.pdeb figure img figcaption{
-padding:auto;
-width:15px;
-height:110px
+padding: auto;
+width: 15px;
+height: 110px;
+font-size: 14px
 }
