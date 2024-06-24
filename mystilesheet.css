@@ -4,7 +4,7 @@ body{
 background: #000ddd;
 margin: 5px
 }
-article{ background: #ffffff; 
+article{ background: #000000; 
 padding: auto;
 margin: auto;
 border: 4px;
@@ -13,30 +13,32 @@ height: 80%
 }
 h2{
 position:relative;
-font: #dddddd;
+font: #ffffff;
 }
 aside{
-background: #000000;
+background: #ffffff;
 position: relative;
 padding: 70%;
 margin: auto;
 width: 80%;
 height: 60%
 }
-#div.pdeb fieldset legend h3{
-position: middle; margin: 2px
+div.pdeb fieldset legend h3{
+position: middle; 
+margin: 2px;
+position:relative
 }
-#div.pdeb figure{
+div.pdeb figure{
 padding: 68%;
 margin: auto;
 width: 110px;
 height: 160px;
-display: inline-block;
+display: inline;
 position: middle;
 font-size: 14px;
 color: #ffffff
 }
-#div.pdeb figure img{
+div.pdeb figure img{
 display: inline;
 image-orientation: inline;
 padding: auto;
@@ -44,10 +46,11 @@ margin: auto;
 width: 100px;
 height: 150px
 }
-#div.pdeb figure img figcaption{
+div.pdeb figure img figcaption{
 padding: auto;
-margin: auto;
+margin:1px;
 width: 15px;
 height: 110px;
-font-size: 14px
+font-size: 14px;
+color: #000000
 }
