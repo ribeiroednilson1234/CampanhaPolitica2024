@@ -4,19 +4,20 @@ body{
 background: #000ddd;
 }
 article{ background: #000000;
-position: middle;
-padding: 80%;
+position : relative;
 margin: 5%;
-border: 5%;
+border: 78%;
+padding: 80%;
 }
 article: h2{
 position: middle;
 font: #ffffff
 }
 aside{background: #ffffff;
-padding: auto;
-margin: auto;
-border: auto;
+position : relative;
+margin: 5%;
+border: 60%;
+padding: 70%
 }
 div.pdeb fieldset{
 position: middle;
@@ -26,14 +27,15 @@ div.pdeb legend h3{
 position: middle; 
 }
 div.pdeb figure{
-display: inline;
-padding: auto;
+background: #00000d;
+position: relative;
 margin: 1%;
 border: 1%;
-position: relative;
+padding: auto;
+display: inline
 }
 div.pdeb img{
-padding: #00000d;
+padding: #0000dd;
 display: inline-block;
 image-orientation: vertical;
 width: 100px;
