@@ -31,7 +31,7 @@ name: Build and deploy an app to AKS
 
 on:
   push:
-    branches: ["ribeiroednilson1234-main"]
+    branches: ["ribeiroednilson1234-patch-iks"]
   workflow_dispatch:
 
 env:
