@@ -1,6 +1,6 @@
 <script>
-    window.addEventListener("message", (event) => {
-        if ( event.source.postMessage("Você está prestes a escolher o seu candidato. Faça a escolha consciente.",
-    event.origin,));
-} true);
+window.postMessage.alert(){
+    let alert="Aviso";
+        Aviso("Você está prestes a escolher o seu candidato./n Faça a    escolha consciente.")
+}
 </script>
