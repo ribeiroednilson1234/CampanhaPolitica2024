@@ -2,55 +2,47 @@
 @include vanilla;
 body{
 background: #000ddd;
-margin: 5px
 }
-article{ background: #000000; 
+article{ background: #000000;
+position: middle;
+padding: 80%;
+margin: 5%;
+border: 5%;
+}
+article: h2{
+position: middle;
+font: #ffffff
+}
+aside{background: #ffffff;
 padding: auto;
 margin: auto;
-border: 4px;
-width: 80%;
-height: 80%
+border: auto;
 }
-h2{
-position:relative;
-font: #ffffff;
+div.pdeb fieldset{
+position: middle;
+margin: 4px
 }
-aside{
-background: #ffffff;
-position: relative;
-padding: 70%;
-margin: auto;
-width: 80%;
-height: 60%
-}
-div.pdeb fieldset legend h3{
+div.pdeb legend h3{
 position: middle; 
-margin: 2px;
-position:relative
 }
 div.pdeb figure{
-padding: 68%;
-margin: auto;
-width: 110px;
-height: 160px;
 display: inline;
-position: middle;
-font-size: 14px;
-color: #ffffff
-}
-div.pdeb figure img{
-display: inline;
-image-orientation: inline;
 padding: auto;
-margin: auto;
+margin: 1%;
+border: 1%;
+position: relative;
+}
+div.pdeb img{
+padding: #00000d;
+display: inline-block;
+image-orientation: vertical;
 width: 100px;
 height: 150px
 }
 div.pdeb figure img figcaption{
-padding: auto;
-margin:1px;
-width: 15px;
-height: 110px;
+display: inline-block;
+width: 100px;
+height: 20px;
 font-size: 14px;
 color: #000000
 }
