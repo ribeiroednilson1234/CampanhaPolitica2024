@@ -1,2 +1,2 @@
-# campanha2024
+# Campanha Politica2024
 Pagina web para campanha eleitoral
