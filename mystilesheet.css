@@ -2,49 +2,58 @@
 @include vanilla;
 body{
 background: #000ddd;
-}
-article{ background: #000000;
-position : relative;
-margin: 5%;
-border: 78%;
-padding: 80%;
-}
-article: h2{
-position: middle;
-font: #ffffff
-}
-aside{background: #ffffff;
-position : relative;
-margin: 5%;
-border: 60%;
-padding: 70%
-}
-div.pdeb fieldset{
-position: middle;
-margin: 4px
-}
-div.pdeb legend h3{
-position: middle; 
-}
-div.pdeb figure{
-background: #00000d;
-position: relative;
 margin: 1%;
-border: 1%;
+border: 0%;
+padding: absolute
+}
+article h2{ 
+background-color: #000000;
+position : absolute;
+margin: 5%;
+border: 0%;
+padding: 60%;
+font-color: #FFFFFF
+}
+aside fieldset{
+background-color: #FFFFFF;
+position : absolute;
+margin: 10%;
+border: 0%;
+padding: 50%;
+font-color: #000000
+}
+div.class legend h3{
+position: middle;
+font-color: #000000
+}
+div.class figure{
+background-color: #DDDFFD;
+position: middle;
+margin: 1%;
+border: 0%;
+padding: relative;
+display: inline-block
+font-color: #000000
+}
+div.class img{
+background-color: #6495ED;
+margin: 1%;
+border: 0%;
 padding: auto;
-display: inline
-}
-div.pdeb img{
-padding: #0000dd;
-display: inline-block;
-image-orientation: vertical;
 width: 100px;
-height: 150px
+height: 150px;
+position: middle;
+display: inline-block;
+image-orientation: vertical
 }
-div.pdeb figure img figcaption{
+div.class figure img: figcaption{
+background-color:#F0FFFF;
+margin: 1%;
+border: 0%;
+padding: auto;
 display: inline-block;
 width: 100px;
 height: 20px;
 font-size: 14px;
-color: #000000
+font-color: #000000
 }
